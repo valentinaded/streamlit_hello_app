@@ -1,13 +1,13 @@
 import streamlit as st
- from datetime import datetime, time
+from datetime import datetime, time
 
 st.title("Hello Streamlit App ")
 
-time_now = time.now()
+#time_now = time.now()
 
 date_now=datetime.now()
 
-st.write(time_now)
+#st.write(time_now)
 
 st.write(date_now)
 
